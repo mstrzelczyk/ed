@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edboard - The Mighty Mechanic</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Become Ed - the most loyal of Santa's elves - and save this year's Christmas. The new point&click game by AtomClick is waiting for you!">
+        <meta name="keywords" content="ed, html5, html5 game, game, point&click, atomclick">  
+        
+        <meta property="og:title" content="Edboard - The Mighty Mechanic"/>
+        <meta property="og:url" content="http://edxmas.pl"/>
+        <meta property="og:image" content="http://edxmas.pl/media/img/fbIcon.png"/>
+        <meta property="og:site_name" content="Edboard - The Mighty Mechanic"/>
+        <meta property="og:description" content="Become Ed - the most loyal of Santa's elves - and save this year's Christmas. The new point&click game by AtomClick is waiting for you!"/>
+        <meta property="og:type" content="website"/>
+        <meta property="fb:app_id" content="237294606343297" />
+
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta http-equiv="Cache-Control" content="post-check=0, pre-check=0" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        
+        <link rel="stylesheet" href="css/fonts.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+
+        <script src="js/libs/jquery-1.8.2.min.js"></script>
+        <script src="js/libs/easeljs-0.5.0.min.js"></script>
+        <script src="js/libs/tweenjs-0.3.0.min.js"></script>
+        <script src="js/libs/Translator.min.js"></script>
+        <script src="js/libs/preloadMM.min.js"></script>
+        <script src="js/libs/Start.min.js"></script>    
+        <script type="text/javascript">
+            var likeUrlPage = 'http://edxmas.pl/';
+            var appId   = '237294606343297';
+            var pageTracker;
+        </script>   
+
+        <link type="text/css" media="screen" rel="stylesheet" href="awwwards.css" />
+    </head>
+    <body id="body">
+        <div id="rotateOverlay" style="display:none;">Rotate your screen</div>     
+    	<!--<div class='debug' style="position:absolute; z-index:300; color:#F00; font-family:Arial; background:#F00; color:#000;">000</div>-->
+        <div id='wraper'>
+        	<div id="preloader">
+        		<div id="santaClaus"><div id="drink"></div><div id="hand"></div></div>
+        		<div id="progress">0%</div>
+        	</div>
+            <div id="loading"><div class="loading-img"></div></div>
+            <div id="canvasBg"></div>
+            <div id="edboardLogo"></div>
+            <div id="frame"></div>
+            
+            <div id="welcomePage">
+                <div id="center">Choose language</div>
+                <ul>
+                    <li><a class="btn" href="#" data-lang="PL"><span>PL</span></a></li>
+                    <li><a class="btn" href="#" data-lang="ENG"><span>ENG</span></a></li>
+                    <li><a class="btn" href="#" data-lang="ES"><span>ES</span></a></li>
+                    <li><a class="btn" href="#" data-lang="CN"><span>CN</span></a></li>
+                </ul>
+                <a href="#" id="appStore"></a>
+                <a href="#" id="googlePlay"></a>
+            </div>
+            <div id="thanksPage">
+                <div class="left"> 
+                    <h1></h1>
+                    <p></p>
+                    <div class="fb-send" data-href="http://edxmas.pl/"></div>
+                    <div style="margin-top: 10px" class="fb-comments" data-href="http://edxmas.pl/" data-width="480" data-num-posts="3"></div>
+                </div>
+                <div class="right"> 
+                    <img src="./media/img/prize.png" title="" alt="" />
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+            <div id="fb-root"></div>
+            <script src="http://connect.facebook.net/en_US/all.js" type="text/javascript"></script>
+            <script type="text/javascript">
+            FB.init({
+                appId: appId,
+                status:true,
+                cookie:true,
+                xfbml:true
+            });
+            </script>
+        </div>
+        
+        <footer>
+            <div id="footerWraper">
+                <div id="html5Logo"></div>
+                <a href="http://atomclick.com" id="atomclickLogo" target="_blank"></a>
+                <div id="socialContainer"></div>
+            </div>
+        </footer>
+       
+        <script type="text/javascript">          
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-30088495-17']);
+          _gaq.push(['_trackPageview']);
+          
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();           
+        </script>
+
+        <noscript>
+            <div id="edboardLogo"></div>
+            <div>Your browser does not support JavaScript!</div>
+        </noscript>
+        <div id="ieError">
+            <div id="edboardLogo"></div>
+            <div>Your browser is too old! Please upgrade to the newest version!</div>
+        </div> 
+        <!--[if lt IE 9]><script>$("#ieError").show();</script><![endif]-->        
+    </body>
+</html>

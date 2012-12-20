@@ -1,0 +1,1 @@
+var TranslatorManager={activeLanguage:"",dictionary:[],setActiveLanguage:function(a){this.activeLanguage=a},loadDictionary:function(a){this.dictionary[a.lang]=a},get:function(a){if(""==this.activeLanguage){return}return this.dictionary[this.activeLanguage][a]===undefined?"":this.dictionary[this.activeLanguage][a]}};

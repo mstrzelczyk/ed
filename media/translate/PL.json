@@ -1,0 +1,41 @@
+{
+    "lang" : "PL",
+
+    "demo1" : "1/4\nWesołych Świąt!\nŁatwo powiedzieć, ale trudniej zrobić… Jak widzisz Mikołaj ostro zabalował, a do Gwiazdki czasu coraz mniej. Na początek musisz powstrzymać kukułkę przed oznajmieniem kolejnej godziny. Jak to zrobić?\nZnajdź kawałek ciasta, którym zatkasz jej dziób.",
+    "demo2" : "2/4\nKawałek ciasta jest zbyt duży.\nZnajdź coś, czym można go przekroić.",
+    "demo3" : "3/4\nPrzeciągnij nóż na ciasto.",
+    "demo4" : "4/4\nSuper! Teraz ciasto jest w rozmiarze kukułkowym.\nPrzeciągnij ciasto z przybornika na zegar.",
+    "demo5" : "Brawo! Zyskałeś na czasie.\nTeraz zastanów się, jak doprowadzić Mikołaja do używalności i uratować kolejne Święta.\nPowodzenia!",
+   
+    "tipBrain" : "Złe myśli źle wpływają na atmosferę Świąt.\nPosprzątaj Mikołajowi w głowie.\nOrdnung muss sein!\nSay no to negative thinking!\nПочистите головку!",
+    "tipOutside1" : "Musisz dostać się na chmurę.\nPytasz: jak? Może renifer pomoże?\nPodejdź go od zadka. Nie bój się, nie kopie.",
+    "tipOutside2" : "Gdy pierwsza gwiazdka nie zaświeci -\nprezentów nie dostaną dzieci.",
+    "tipOutside3" : "Co to za Święta bez śniegu?",
+    "tipInside" : "Mikołaj bez brody, to jak renifer\nbez uskrzydlonej podkowy.\nNie wyhodujesz brody w ciągu kilku minut,\nale możesz ją zrobić.\nPotrzebujesz białego włosia i czegoś lepkiego.",
+
+    "tube1": "Leci przez nią muzyka dla ucha! Także mikołajowego.",
+    "tube2": "Tuba:\nLeci przez nią muzyka dla ucha! Także mikołajowego.",
+    "honey1": "Widzisz gdzieś Kubusia Puchatka? Nie? To pewnie nie wiesz, co zrobić z miodem. Obrzydliwie lepkim miodem, do którego wszystko się klei. ",
+    "honey2": "Miód:\nWidzisz gdzieś Kubusia Puchatka? Nie? To pewnie nie wiesz, co zrobić z miodem. Obrzydliwie lepkim miodem, do którego wszystko się klei. ",
+    "horseshoe1": "Renifer nie nosi zwykłych podków. Wdziewa tylko magicznie uskrzydlone.",
+    "horseshoe2": "Podkowa:\nRenifer nie nosi zwykłych podków.\nWdziewa tylko magicznie uskrzydlone.",
+    "bottle1": "Było w niej coś, co uskrzydliło Mikołaja.\nTeraz można w nią złapać jakieś skrzydlate stworzenie.",
+    "bottle2": "Butelka:\nByło w niej coś, co uskrzydliło Mikołaja.\nTeraz można w nią złapać jakieś skrzydlate stworzenie.",
+    "fairy1": "Małe, latające, wiotkie wróżki. To tylko pozory.\nGdy je lepiej poznasz, odkryjesz, że są twarde jak stal. I lubią hard metal.",
+    "fairy2": "Wróżka:\nTeraz nie ucieknie. W dodatku może uskrzydlić jakiś przedmiot.",
+    "magicHorseshoe": "Magiczna podkowa:\nRenifer będzie wniebowzięty! ",
+    "angelHair1": "McGyver zrobiłby z nich pewnie rakietę kosmiczną.\nTobie mogą posłużyć jako nici.",
+    "angelHair2": "Anielskie Włosy:\nMcGyver zrobiłby z nich pewnie rakietę kosmiczną.\nTobie mogą posłużyć jako nici.",
+    "mask1": "Mocno dychotomiczna.\nMoże przestraszyć nawet czworonoga.",
+    "mask2": "Maska:\nMocno dychotomiczna.\nMoże przestraszyć nawet czworonoga.",
+    "catHair1": "Jest biała jak Mikołaja… brakująca część.\nAby utrzymała się na Mikołaju trzeba ją połączyć\nz czymś lepkim.",
+    "catHair2": "Kocia sierść:\nJest biała jak Mikołaja… brakująca część.\nAby utrzymała się na Mikołaju trzeba ją połączyć\nz czymś lepkim.",
+    "beard": "Broda:\nDopełnia wizerunek Świętego",
+    "thunderbolt1": "Czy wiesz, że angielski Thursday pochodzi od imienia Thora – boga burzy i piorunów? Thor w każdy czwartek podróżował po świecie rydwanem zaprzężonym w kozły i miotał piorunami.\nCiekawe do czego Tobie posłuży piorun?",
+    "thunderbolt2": "Piorun:\nCzy wiesz, że angielski Thursday pochodzi od imienia Thora – boga burzy i piorunów? Thor w każdy czwartek podróżował po świecie rydwanem zaprzężonym w kozły i miotał piorunami.\nCiekawe do czego Tobie posłuży piorun?",
+    
+    "thanksLeftTitle": "Gratulacje!",
+    "thanksLeftText": "Uratowałeś kolejne Święta! <br /> Podziel się tą radosną nowiną ze znajomymi!",
+    "thanksRightTitle": "Uwaga konkurs!",
+    "thanksRightCompetition": "Wyraź swoją opinię o grze i wygraj analogową nagrodę."
+}

@@ -1,0 +1,46 @@
+html { font-family: 'Milonga', cursive; letter-spacing: 2px;}
+body { margin: 0; padding: 0; width: 100%; height: 100%; min-width:1000px; background: #f6f0d6 url('../media/img/bg.jpg') repeat-x center top;}
+body #rotateOverlay{ min-height: 812px; background:black; position:absolute; width:100%; height:100%; color:#fff; z-index:100000; font-size:100px; text-align: center; }
+#wraper { margin:0 auto 0 auto; width:1000px; text-align:center; margin-bottom:50px; }
+
+footer { margin:0 auto 0 auto; text-align: center; width: 500px; height:100px; padding: 7px 0; display:inline-block; margin-left:50%;}
+footer #footerWraper { width:1000px; margin-left:-500px; }
+footer #socialContainer {margin:0 auto; width:230px; }
+footer .social { float: left; margin-left: 10px; }
+footer a#atomclickLogo { margin:0 auto 0 auto; width:110px; height: 43px;  background: url('../media/img/atomclickLogo.png') no-repeat right; float:right; }
+footer #html5Logo {background:url('/media/img/html5.png') no-repeat; width: 60px; height: 60px; float:left;}
+
+canvas, #canvasBg, #loading { display: none; position: absolute; width: 960px; height: 540px; top:150px; margin-left:20px; background:none; -webkit-tap-highlight-color:#FFF; }
+canvas { z-index: 10; font-family: 'Emilys Candy', cursive; letter-spacing: 2px;}
+#canvasBg { z-index: 5; display: none }
+#loading {z-index: 1; display: none; background-color:#333; }
+#loading .loading-img { width: 960px; height: 540px; background: url('../media/img/loadingIco.png') center no-repeat; }
+#edboardLogo {display: none; width: 1000px; height: 96px; background: url('../media/img/edboardLogo.png') no-repeat center; position:absolute; top:20px; }
+
+#frame {display: none; z-index: 9; width: 1000px; height: 569px; background: url('../media/img/frame.png') no-repeat;  position: absolute; top:135px; }
+
+#welcomePage, #thanksPage {background: url('../media/img/edBoardLogoBig.png') no-repeat top center; z-index: 8; width: 1000px; } 
+#welcomePage { width: 1000px; margin-top:50px; padding-top:200px; height:250px; } 
+#welcomePage #center{font-style: italic; color: #231f20; text-align: center; font-size: 30px; width: 1000px; }
+#welcomePage ul {z-index:14; list-style: none; margin:0 auto; width:410px; margin-top:25px; margin-bottom:50px; }
+#welcomePage ul li{ float: left; }
+#welcomePage ul li a{ padding-left: 6px; text-align: center; text-decoration: none; display: block; width: 90px; height: 90px;  background: url('../media/img/btnSmallRect.png') no-repeat; overflow: hidden;}
+#welcomePage ul li a span {color: #000; font-weight: bold; font-size: 20px; display: block; width:100%; margin-top: 30px;}
+
+#preloader { display: none; width:100%; z-index:10px; margin-top:50px;}
+#preloader #santaClaus{ background:url('../media/img/mikolaj.png') no-repeat; margin: 0 auto; width:540px; height:448px; position:relative; }
+#preloader #hand{ position:absolute; left:-10px; top:70px; background:url('../media/img/rekabutelka.png') no-repeat; margin: 0 auto; width:272px; height:303px;}
+#preloader #drink{ opacity:0.7; position:absolute; left:56px; top:90px; background:url('../media/img/ciecz.png') no-repeat; background-position:0 -19px; width:206px; height:205px;}
+#progress{ font-size: 32px; width:1000px; margin-top:10px; }
+
+#thanksPage { display: none; background: none; width:1000px; margin-top:180px; height:auto;}
+#thanksPage h1 {font-size: 40px;}
+#thanksPage p {font-size: 20px; font-weight: bold; line-height: 23px;}
+#thanksPage .left, #thanksPage .right{ width: 495px; }
+#thanksPage .left { text-align: right; float:left;  }
+#thanksPage .right { float:right; text-align: left; width:480px;}
+
+noscript, #ieError {display: block; position: fixed; z-index: 99999; width: 100%; height: 100%; background: url('../media/img/bg.jpg') repeat-x center top;}
+noscript div, #ieError div {position: absolute; top: 50%; left: 50%; width: 400px; margin-left: -200px; margin-top: -25px; text-align: center; font-size: 30px;}
+noscript div#edboardLogo, #ieError div#edboardLogo {display: block; width: 241px; height: 96px; margin-left: -120px; margin-top: -125px;}
+#ieError {display: none;}

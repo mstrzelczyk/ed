@@ -1,0 +1,1 @@
+cat *.js ../utils/*.js managers/*.js containers/*.js creatures/*.js items/*.js collections/*.js > all.js
